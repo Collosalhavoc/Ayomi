@@ -25,7 +25,7 @@ Hi {}, my name is {}!
 I am an Anime themed group management bot.
 You can find my list of available commands with /help.
 
-[Saitama's Repo](github.com/AnimeKaizoku/SaitamaRobot) 
+[Ayomi's Repo](https://github.com/Collosalhavoc/Ayomi)
 See [Basic Configuration Checklist](t.me/OnePunchUpdates/29) on how to secure your group.
 The support group chat is at {}.
 """
@@ -51,7 +51,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/46e6d9dfcb3eb9eae95d9.jpg"
+SAITAMA_IMG = "https://user-images.githubusercontent.com/66965331/91017707-3c118a80-e60c-11ea-9c8f-e92cdca4be79.png"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
