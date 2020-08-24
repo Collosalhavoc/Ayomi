@@ -54,7 +54,7 @@ And the following:
 SAITAMA_IMG = "https://telegra.ph/file/698b079d02e1dade3e9d9.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
+Ayomi is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul
 There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
 
@@ -160,7 +160,7 @@ def start(update: Update, context: CallbackContext):
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup([[
                     InlineKeyboardButton(
-                        text="Add Saitama to your group",
+                        text="Add Ayomi to your group",
                         url="t.me/{}?startgroup=true".format(
                             context.bot.username))
                 ]]))
